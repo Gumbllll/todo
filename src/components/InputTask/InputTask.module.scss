@@ -1,0 +1,41 @@
+.inputTask {
+    display: grid;
+    grid-template-columns: 1fr 80px 80px;
+    background: #cfeecf;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+    &Checkbox {
+        width: 20px;
+        height: 20px;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+
+    &Label {
+        display: grid;
+        grid-template-columns: auto 1fr ;
+        align-items: center;
+        padding: 5px 0px;
+    }
+    
+    &Title {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    &Edit, &Remove, &Update {
+        border: none;
+        color: white;
+        cursor: pointer;
+    }
+
+    &Edit, &Update {
+        background: #4CAF50;
+    }
+
+    &Remove {
+        background: #f44336;
+    }
+
+}
